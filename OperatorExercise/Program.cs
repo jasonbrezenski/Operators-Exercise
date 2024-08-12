@@ -13,7 +13,7 @@
             int quotient = a / b;
             int remainder = a % b;
             
-            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}.");
+            Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}.");
             
             Console.WriteLine("What is the radius of your circle?");
             double radius = double.Parse(Console.ReadLine());
